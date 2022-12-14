@@ -1,19 +1,12 @@
 <resources>
     <string name="app_name">Trail Tracker</string>
-    <string name="trail_name">Trail Name</string>
+    <string name="trail_name">Name</string>
     <string name="comments">Comments</string>
     <string name="liked_it">Liked It!</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
-    <string name="trail1">Kim Williams Nature Trail</string>
-    <string name="trail2">Milwaukee Trail to Clark Fork</string>
-    <string name="trail3">Froelich Trail and Ridge Trail Loop</string>
-    <string name="trail4">Waterworks Hill</string>
-    <string name="trail5">Mount Sentinal via Hellgate Ridgeline Loop</string>
-    <string name="trail6">The "M" Trail</string>
-    <string name="trail7">University Mountain</string>
-    <string name="trail8">Mount Jumbo Trail</string>
-    <string name="trail9">The L Trail</string>
-    <string name="trail10">US West Trail</string>
-    <string name="trail11">Pattee Canyon Trail</string>
+    <string name="trail_location">Location</string>
+    <string name="notes">Notes</string>
+    <string name="delete">Delete</string>
+    <string name="action_settings">Settings</string>
 </resources>

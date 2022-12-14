@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/trackerListFragment">
+
+    <fragment
+        android:id="@+id/trackerListFragment"
+        android:name="com.rkemp12.trailtracker.ui.TrackerListFragment"
+        android:label="Trail Tracker" >
+        <action
+            android:id="@+id/action_TrackerListFragment_to_addTrackerFragment"
+            app:destination="@id/addTrackerFragment" />
+        <action
+            android:id="@+id/action_trackerListFragment_to_trackerDetailFragment"
+            app:destination="@id/trackerDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTrackerFragment"
+        android:name="com.rkemp12.trailtracker.ui.AddTrailFragment"
+        android:label="Trail Tracker"
+        tools:layout="@layout/fragment_add_trail" >
+        <action
+            android:id="@+id/action_addTrackerFragment_to_trackerListFragment"
+            app:destination="@id/trackerListFragment" />
+        <argument
+            android:name="id"
+            app:argType="long"
+            android:defaultValue="0L" />
+    </fragment>
+    <fragment
+        android:id="@+id/trackerDetailFragment"
+        android:name="com.rkemp12.trailtracker.ui.TrackerDetailFragment"
+        android:label="Trail Tracker"
+        tools:layout="@layout/fragment_trail_detail" >
+        <argument
+            android:name="id"
+            android:defaultValue="0L"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_trackerDetailFragment_to_addTrackerFragment"
+            app:destination="@id/addTrackerFragment" />
+    </fragment>
+
+</navigation>

@@ -3,10 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/drawable-v24/ic_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/drawable-v24/ic_edit_24.xml" value="0.1" />
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/drawable-v24/ic_location_24.xml" value="0.1" />
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/drawable-v24/ic_notes_24.xml" value="0.1" />
         <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/drawable/border.xml" value="0.11" />
         <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/layout/activity_main.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/layout/content_main.xml" value="0.1" />
         <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/layout/edit_trail_data.xml" value="0.25" />
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/layout/fragment_add_trail.xml" value="0.1" />
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/layout/fragment_trail_detail.xml" value="0.1" />
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/layout/fragment_trail_list.xml" value="0.1" />
         <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/layout/trail_item.xml" value="0.25" />
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/layout/trail_list.xml" value="0.165" />
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/xml/backup_rules.xml" value="0.1" />
+        <entry key="..\:/Users/pixph/AndroidStudioProjects/TrailTracker/app/src/main/res/xml/data_extraction_rules.xml" value="0.1" />
       </map>
     </option>
   </component>
